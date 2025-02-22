@@ -1,0 +1,11 @@
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(80%);
+}

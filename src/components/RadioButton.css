@@ -1,0 +1,16 @@
+.radio-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.radio-button input {
+  accent-color: blue;
+}
+
+.radio-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

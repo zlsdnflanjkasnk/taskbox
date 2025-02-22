@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.table-header,
+.table-footer {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-cell {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-header-cell {
+  background-color: #ddd;
+}
+
+.table-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
