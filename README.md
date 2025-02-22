@@ -40,20 +40,26 @@ EXPOSE 8083
 # Command to run the app on port 8083
 CMD ["yarn", "storybook", "--port", "8083"]
 
+# build image
+build image with errors
+
+# resolve yarn compatibility problem
+change the yarn version of packagemanager in package.json to 1.22.22 to match the global version
+
 # resolve the problem that storybook tries to use a linux function which is not compatible with windows browsers
 ENV CI=true
 
-# resolve another compatity problem
-change the yarn version of packagemanager in package.json to 1.22.22 to match the global version
-
-# build image
-build image of the project
+# re-build image
+re-build image of the project
 
 # build container
 build container with name: bao_yuwei_coding_assignment12 on port 8083
 
 # run container
-container runs on port 8083 successfully
+container runs successfully on port 8083
+
+
+
 
 
 
